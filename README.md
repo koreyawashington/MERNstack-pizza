@@ -1,4 +1,4 @@
 # MERNstack-pizza
 
 # Trello
-https://trello.com/b/ymzzsGuk/finalproject#
+https://trello.com/b/Qt8oRtJq/finalproject-mern

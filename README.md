@@ -16,6 +16,10 @@ Express
 React
 Node
 Visual Studio Code
+Netlitfy
+
+# Tools
+https://jsonformatter.org/
 
 # Getting Started
 # Trello Board

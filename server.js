@@ -1,7 +1,8 @@
 require('dotenv').config({path: '.env'});
 
 const express = require('express')
-
+//import pizzas from mongodb from ./models/pizzaModel which is supposed to be connected to mongodb but not connected yet
+const Pizzas = require('./models/pizzaModel')
 
 const db = require('./config/db');
 
@@ -16,25 +17,23 @@ app.set('view engine', 'jsx');
 app.engine('jsx', require('jsx-view-engine').createEngine());
 
 
-/*
-//  * Middlewares
-//  */
-// app.use((req, res, next) => {
-//     console.log('I run on all routes!');
-//     next();
-
-// });
-// Parsing incoming data from request
-// app.use(bodyparser.json());
-// app.use(express.urlencoded({extended: false}));
-
-
-
-
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('My server is working!')
+})
+
+app.get('/pizzasBackend', (req, res) => {
+
+  Pizzas.find({}, (error, documents) => {
+
+    if(error){
+      log(error)
+    }else{
+      res.send(documents)
+    }
+
+  })
 })
 
 app.listen(PORT, () => {

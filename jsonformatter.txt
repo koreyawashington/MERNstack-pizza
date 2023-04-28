@@ -1,0 +1,137 @@
+[
+  {
+    name: "Pepperoni Pizza",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 9.99,
+        medium: 14.99,
+        large: 17.99,
+        XL: 23.99,
+      },
+    ], 
+    category: "Non-Vegan",
+    image: "https://www.modernhoney.com/wp-content/uploads/2022/10/Homemade-Pepperoni-Pizza-2-720x755.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Turkey Pepperoni, Hot Honey, and Red Chili Pepper Flakes",
+  },
+  {
+    name: "Cheese Pizza",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 6.99,
+        medium: 10.99,
+        large: 13.99,
+        XL: 16.99,
+      },
+    ], 
+    category: "Vegan",
+    image: "https://plantifullybasedblog.com/wp-content/uploads/2019/06/2-min.jpeg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Garlic , Parsley, Oregano, and Red Chili Pepper Flakes",
+  },
+  {
+    name: "Hawaiian BBQ",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 17.99,
+        medium: 21.99,
+        large: 27.99,
+        XL: 31.99,
+      },
+    ], 
+    category: "Vegan",
+    image: "https://i2.wp.com/lifemadesimplebakes.com/wp-content/uploads/2016/07/Hawaiian-BBQ-Pizza.jpg",
+    description: "Homemade Pizza Dough, Pineapple Chunks, Olive Oil, Mozzarella Cheese, Sweet Baby Ray's Barbecue Sauce, Ham, Red Onions, Cilantro, Red Pepper Flakes",
+  },
+  {
+    name: "Buffalo Chicken Pizza",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 8.99,
+        medium: 13.99,
+        large: 16.99,
+        XL: 22.99,
+      },
+    ], 
+    category: "Non-Vegan",
+    image: "https://www.sweetashoney.co/wp-content/uploads/Buffalo-Chicken-Pizza-3.jpg",
+    description: "Homemade Pizza Dough, Cream Cheese, Greek Yogurt, Mozzarella Cheese, Rotisserie Chicken, Dried Dill, Garlic, Yellow Onions, Green Onions, Butter, Melted Butter, and Buffalo Sauce",
+  },
+  {
+    name: "Pizza Neapolitan",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 20.99,
+        medium: 30.99,
+        large: 40.99,
+        XL: 50.99,
+      },
+    ], 
+    category: "Vegan",
+    image: "https://www.cucinabyelena.com/wp-content/uploads/2021/08/0Z4A9662-683x1024.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Extra Virgin Olive Oil, and Basil",
+  },
+  {
+    name: "Vegetable Supreme ",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 7.99,
+        medium: 11.99,
+        large: 15.99,
+        XL: 19.99,
+      },
+    ], 
+    category: "Vegan",
+    image: "https://www.acouplecooks.com/wp-content/uploads/2019/04/Pizza-027.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Baby Bella Mushrooms, Olive Oil, Green Peppers, Red Onion, Oregano, Feta Cheese Crumbles, and Red Chili Pepper Flakes",
+  },
+  {
+    name: "Pizza Napoli",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 19.99,
+        medium: 21.99,
+        large: 23.99,
+        XL: 25.99,
+      },
+    ], 
+    category: "Non-Vegan",
+    image: "http://www.italianfoodforever.com/wp-content/uploads/2015/01/napolipizza1.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Anchovies, Salted Capers, Sea Salt, Oregano, and Red Chili Pepper Flakes",
+  },
+  {
+    name: "Meat Lover's Pizza",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 35.99,
+        medium: 45.99,
+        large: 55.99,
+        XL: 70.99,
+      },
+    ], 
+    category: "Non-Vegan",
+    image: "https://www.queensleeappetit.com/wp-content/uploads/2019/02/Meat-Lovers-Pizza-5.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Italian Sausage, Bacon, Canadian Bacon, Turkey Pepperoni, Oregano, and Red Chili Pepper Flakes",
+  },
+  {
+    name: "Ham and Cheese",
+    size: ["small","medium","large","XL"],
+    price: [
+      {
+        small: 20.99,
+        medium: 25.99,
+        large: 35.99,
+        XL: 50.99,
+      },
+    ], 
+    category: "Non-Vegan",
+    image: "https://www.foodfromportugal.com/content/uploads/2022/03/ham-cheese-pizza-1.jpg",
+    description: "Homemade Pizza Dough, Tomato Sauce, Mozzarella Cheese, Sliced Ham, Oregano, and Grated Parmesan Cheese",
+  },
+]
